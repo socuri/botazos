@@ -1,16 +1,14 @@
 const Discord = require('discord.js');
-const client - new Discortd.Client();
-
-client.login(NzMyMjk1NTI3MzExNDc0ODI5.XxGmkA.nhtDVYrp7DPvn7XEPz4tZagDErU)
+const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log("The Bot is Logged!");
-}));
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 
-client.on('mesage', mesage => {
-    if(mesage.author.bot)
-        return;
-    
-    if(mesage.content.toLowerCase() === 'hello')
-        message.channel.send("Hola Calvo");
-})
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
+  }
+});
+
+client.login('NzMyMjk1NTI3MzExNDc0ODI5.XxGncA.KmmvHSCZ98Q4AizcBFxDow_59Eo');
