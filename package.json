@@ -1,0 +1,20 @@
+{
+    "name": "NewLifeRPbot",
+    "version": "1.0.0",
+    "description": "bot_for_discord_server_new_life_rp",
+    "main": "bot.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/socuri/botazos.git"
+    },
+    "keywords": [],
+    "author": "Oriol Marti",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/socuri/botazos/issues"
+    },
+    "homepage" "https://github.com/socuri/botazos#readme"
+}
