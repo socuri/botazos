@@ -14,7 +14,6 @@
     "author": "Oriol Marti",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/socuri/botazos/issues"
+        "url": "https://github.com/socuri/botazos/Issues"
     },
-    "homepage" "https://github.com/socuri/botazos#readme"
 }
